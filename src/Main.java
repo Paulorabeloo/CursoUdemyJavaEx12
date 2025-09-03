@@ -11,8 +11,7 @@ public class Main {
         int duracao;
         if (horaInicial < horaFinal) {
             duracao = horaFinal - horaInicial;
-        }
-        else {
+        } else {
             duracao = 24 - horaInicial + horaFinal;
         }
 
